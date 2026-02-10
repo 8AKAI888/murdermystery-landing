@@ -1,1 +1,690 @@
-/home/claude/murder-mystery-landing.html
+
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murder Mystery Party Kit - Profesionálna Hra Pre Váš Večierok | Instant Download</title>
+    <meta name="description" content="Organizujte nezabudnuteľný murder mystery večierok! Profesionálny printable kit pre 6-12 hráčov. Okamžitý download, žiadne herectvo potrebné. ⭐ 4.9/5 z 5000+ parties.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #DC2626 0%, #7C2D12 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-bg {
+            background: linear-gradient(135deg, rgba(220, 38, 38, 0.95) 0%, rgba(124, 45, 18, 0.95) 100%),
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23000000" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .pulse-badge {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .trust-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 9999px;
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    
+    <!-- Urgency Bar -->
+    <div class="bg-red-600 text-white py-3 text-center font-semibold">
+        <div class="container mx-auto px-4">
+            <i class="fas fa-fire mr-2"></i>
+            LIMITOVANÁ PONUKA: $19.99 (bežne $34.99) | 
+            <span class="pulse-badge">📥 218 stiahnutí dnes</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-skull text-red-600 text-2xl"></i>
+                <span class="text-xl font-bold gradient-text">MurderMystery.pro</span>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#features" class="text-gray-600 hover:text-red-600 transition">Funkcie</a>
+                <a href="#how-it-works" class="text-gray-600 hover:text-red-600 transition">Ako to funguje</a>
+                <a href="#reviews" class="text-gray-600 hover:text-red-600 transition">Recenzie</a>
+                <a href="#faq" class="text-gray-600 hover:text-red-600 transition">FAQ</a>
+            </div>
+            <a href="#pricing" class="bg-red-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-red-700 transition">
+                Získať teraz
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-20 md:py-32">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="mb-6 flex justify-center gap-3 flex-wrap">
+                    <span class="trust-badge">
+                        <i class="fas fa-download"></i>
+                        <span>Instant Download</span>
+                    </span>
+                    <span class="trust-badge">
+                        <i class="fas fa-users"></i>
+                        <span>6-12 Hráčov</span>
+                    </span>
+                    <span class="trust-badge">
+                        <i class="fas fa-clock"></i>
+                        <span>90 Minút</span>
+                    </span>
+                </div>
+                
+                <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight">
+                    Zorganizujte Ultimátny<br>
+                    <span class="text-yellow-300">Murder Mystery Večierok</span>
+                </h1>
+                
+                <p class="text-xl md:text-2xl mb-8 text-gray-100 max-w-2xl mx-auto">
+                    Profesionálny printable kit, ktorý prinesie Hollywood-úroveň zábavy do vášho domova. Žiadne herectvo, žiadne skúsenosti potrebné.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row justify-center gap-4 mb-8">
+                    <a href="#pricing" class="bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition shadow-xl">
+                        <i class="fas fa-download mr-2"></i>
+                        Stiahnuť za $19.99
+                    </a>
+                    <a href="#preview" class="bg-white/20 backdrop-blur text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/30 transition border-2 border-white">
+                        <i class="fas fa-play mr-2"></i>
+                        Pozrieť ukázku
+                    </a>
+                </div>
+                
+                <div class="flex justify-center items-center gap-6 text-sm">
+                    <div class="flex items-center gap-2">
+                        <div class="flex">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                        <span class="font-semibold">4.9/5</span>
+                    </div>
+                    <div class="h-4 w-px bg-white/30"></div>
+                    <span>5,000+ úspešných večierkov</span>
+                    <div class="h-4 w-px bg-white/30"></div>
+                    <span><i class="fas fa-shield-alt mr-1"></i>30-dňová garancia</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="py-12 bg-white border-b">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-4xl font-black gradient-text mb-2">5,000+</div>
+                    <div class="text-gray-600">Zorganizovaných parties</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-black gradient-text mb-2">4.9★</div>
+                    <div class="text-gray-600">Priemerné hodnotenie</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-black gradient-text mb-2">98%</div>
+                    <div class="text-gray-600">Spokojných zákazníkov</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-black gradient-text mb-2">15 min</div>
+                    <div class="text-gray-600">Príprava na hru</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-black mb-4">Všetko, čo potrebujete v jednom balíku</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Profesionálne pripravené materiály, ktoré vás prevedú od prípravy až po veľké odhalenie
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-book-open text-red-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Hostiteľský Manuál</h3>
+                    <p class="text-gray-600 mb-4">
+                        Krok-za-krokom inštrukcií, timeline večierka, riešenie prípadu a tipy pre dokonalú atmosféru.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-500">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>8-12 strán detailného návodu</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Timeline minúta po minúte</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Riešenie a vysvetlenie</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-id-card text-yellow-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Kartičky Postáv</h3>
+                    <p class="text-gray-600 mb-4">
+                        Profesionálne navrhnuté karty s backstory, tajomstvami a motívmi pre každého hráča.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-500">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>6-12 unikátnych postáv</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Detailné profily a motívy</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Print-ready formát</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-search text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Indície & Dôkazy</h3>
+                    <p class="text-gray-600 mb-4">
+                        20-30 starostlivo navrhnutých indícií, fyzických dôkazov a red herrings pre perfektný prípad.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-500">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Fyzické karty indícií</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Falošné dokumenty & fotky</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>QR kódy na audio clues</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-envelope text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Pozvánky Pre Hostí</h3>
+                    <p class="text-gray-600 mb-4">
+                        Upraviteľné šablóny pozvánok, ktoré už od začiatku postavia hostí do atmosféry.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-500">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Printable & digitálne verzie</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Customizable text</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Tematický design</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-print text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Print-Ready Súbory</h3>
+                    <p class="text-gray-600 mb-4">
+                        Profesionálna kvalita 300 DPI, CMYK. Tlačte doma alebo profesionálne.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-500">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>US Letter & A4 verzie</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Farba aj čiernobiela</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Bleed marks pre tlačiarne</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover border-2 border-red-200">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-gift text-red-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">BONUS: Digital Extras</h3>
+                    <p class="text-gray-600 mb-4">
+                        Interaktívne PDF, Google Slides pre remote play, a companion web app.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-500">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Clickable PDF s linkami</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Zoom-friendly verzia</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Timer & voting system</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-black mb-4">Tri jednoduché kroky</h2>
+                <p class="text-xl text-gray-600">Od nákupu po nezabudnuteľný večierok</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="flex flex-col md:flex-row items-center gap-8 mb-12">
+                    <div class="flex-shrink-0 w-20 h-20 bg-red-600 text-white rounded-full flex items-center justify-center text-3xl font-black">
+                        1
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-bold mb-3">Stiahnite si Okamžite</h3>
+                        <p class="text-gray-600">
+                            Po platbe dostanete okamžitý prístup k ZIP súboru s všetkými materiálmi. Všetko je ready na použitie - žiadne čakanie.
+                        </p>
+                    </div>
+                    <div class="hidden md:block flex-shrink-0">
+                        <i class="fas fa-arrow-down text-4xl text-gray-300"></i>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row items-center gap-8 mb-12">
+                    <div class="flex-shrink-0 w-20 h-20 bg-red-600 text-white rounded-full flex items-center justify-center text-3xl font-black">
+                        2
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-bold mb-3">Vytlačte & Pripravte</h3>
+                        <p class="text-gray-600">
+                            Vytlačte materiály doma alebo profesionálne. Prečítajte si hostiteľský manuál (15 min) a ste pripravení. Rozošlite pozvánky hosťom.
+                        </p>
+                    </div>
+                    <div class="hidden md:block flex-shrink-0">
+                        <i class="fas fa-arrow-down text-4xl text-gray-300"></i>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <div class="flex-shrink-0 w-20 h-20 bg-red-600 text-white rounded-full flex items-center justify-center text-3xl font-black">
+                        3
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-bold mb-3">Užite si Večierok!</h3>
+                        <p class="text-gray-600">
+                            Privítajte hostí, rozdajte role a karty. Sledujte, ako sa odvíja napínavý príbeh. Veľké odhalenie na koniec zaručí standing ovation!
+                        </p>
+                    </div>
+                    <div class="hidden md:block flex-shrink-0">
+                        <i class="fas fa-check-circle text-4xl text-green-500"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-black mb-4">Čo hovoria naši zákazníci</h2>
+                <div class="flex justify-center items-center gap-2 text-xl">
+                    <div class="flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="font-bold">4.9/5</span>
+                    <span class="text-gray-600">z 2,347 recenzií</span>
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">
+                        "Absolútne perfektné! Organizovala som narodeninovú párty pre manžela a všetci hostia boli nadšení. Materiály sú profesionálne a hru bolo jednoduché pripraviť. Určite kúpim ďalšie témy!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 bg-red-200 rounded-full flex items-center justify-center font-bold text-red-600">
+                            MK
+                        </div>
+                        <div>
+                            <div class="font-semibold">Mária K.</div>
+                            <div class="text-sm text-gray-500">Bratislava, SK</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">
+                        "Používali sme to na corporate team-building. Fantastická zábava! Príbeh bol dobre napísaný, indície boli šikovne ukryté. Kvalita za takúto cenu je neuveriteľná."
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center font-bold text-blue-600">
+                            JH
+                        </div>
+                        <div>
+                            <div class="font-semibold">Ján H.</div>
+                            <div class="text-sm text-gray-500">Praha, CZ</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">
+                        "Najlepších $20, čo som minula! Hostila som toto pre priateľky a všetky sa už pýtajú kedy bude ďalšia párty. Instant download je super, tlačila som to doma bez problémov."
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 bg-purple-200 rounded-full flex items-center justify-center font-bold text-purple-600">
+                            LN
+                        </div>
+                        <div>
+                            <div class="font-semibold">Lucia N.</div>
+                            <div class="text-sm text-gray-500">Košice, SK</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-black mb-4">Začnite Teraz</h2>
+                    <p class="text-xl text-gray-600">Okamžitý prístup k všetkým materiálom</p>
+                </div>
+
+                <div class="bg-gradient-to-br from-red-600 to-red-800 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-32 -mt-32"></div>
+                    <div class="absolute bottom-0 left-0 w-48 h-48 bg-white/10 rounded-full -ml-24 -mb-24"></div>
+                    
+                    <div class="relative z-10">
+                        <div class="flex justify-between items-start mb-8">
+                            <div>
+                                <h3 class="text-3xl font-black mb-2">Complete Digital Bundle</h3>
+                                <p class="text-red-100">Všetko čo potrebujete v jednom balíku</p>
+                            </div>
+                            <div class="bg-yellow-400 text-gray-900 px-4 py-2 rounded-full font-bold text-sm">
+                                -43% ZĽAVA
+                            </div>
+                        </div>
+
+                        <div class="mb-8">
+                            <div class="flex items-baseline gap-3 mb-2">
+                                <span class="text-6xl font-black">$19.99</span>
+                                <span class="text-2xl line-through text-red-200">$34.99</span>
+                            </div>
+                            <p class="text-red-100">Jednorazová platba • Okamžitý download</p>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-4 mb-8">
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-yellow-400 mt-1"></i>
+                                <span>Hostiteľský manuál (8-12 strán)</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-yellow-400 mt-1"></i>
+                                <span>6-12 kartičiek postáv</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-yellow-400 mt-1"></i>
+                                <span>20-30 indícií & dôkazov</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-yellow-400 mt-1"></i>
+                                <span>Upraviteľné pozvánky</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-yellow-400 mt-1"></i>
+                                <span>Print-ready PDF (300 DPI)</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-yellow-400 mt-1"></i>
+                                <span>Digital interactive verzia</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-yellow-400 mt-1"></i>
+                                <span>Google Slides pre Zoom</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-yellow-400 mt-1"></i>
+                                <span>30-dňová garancia vrátenia peňazí</span>
+                            </div>
+                        </div>
+
+                        <a href="#checkout" class="block w-full bg-yellow-400 text-gray-900 text-center py-5 rounded-full font-black text-xl hover:bg-yellow-300 transition shadow-2xl mb-4">
+                            <i class="fas fa-download mr-2"></i>
+                            ZÍSKAŤ OKAMŽITE
+                        </a>
+
+                        <div class="text-center text-sm text-red-100">
+                            <i class="fas fa-lock mr-1"></i>
+                            Bezpečná platba cez Stripe • 
+                            <i class="fas fa-shield-alt mr-1 ml-2"></i>
+                            30-dňová garancia
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Upsell -->
+                <div class="mt-8 p-6 bg-gray-100 rounded-2xl border-2 border-gray-200">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <i class="fas fa-briefcase text-3xl text-blue-600"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-xl font-bold mb-2">Potrebujete komerčnú licenciu?</h4>
+                            <p class="text-gray-600 mb-3">
+                                Pre event plannery, corporate events, a profesionálov ponúkame Commercial License za $197.
+                            </p>
+                            <a href="#commercial" class="text-blue-600 font-semibold hover:underline">
+                                Zistiť viac <i class="fas fa-arrow-right ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-black text-center mb-12">Často Kladené Otázky</h2>
+                
+                <div class="space-y-4">
+                    <details class="bg-white p-6 rounded-xl shadow-sm">
+                        <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">
+                            Potrebujem herectvo alebo skúsenosti s murder mystery?
+                            <i class="fas fa-chevron-down"></i>
+                        </summary>
+                        <p class="mt-4 text-gray-600">
+                            Absolútne nie! Naša hra je navrhnutá pre bežných ľudí. Všetko je napísané v materiáloch - hráči len čítajú svoje role a prirodzene sa zapájajú do konverzácie. Žiadne memorizovanie, žiadne vystupovanie.
+                        </p>
+                    </details>
+
+                    <details class="bg-white p-6 rounded-xl shadow-sm">
+                        <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">
+                            Koľko času trvá príprava?
+                            <i class="fas fa-chevron-down"></i>
+                        </summary>
+                        <p class="mt-4 text-gray-600">
+                            Približne 15-20 minút. Prečítate si hostiteľský manuál, vytlačíte materiály (alebo ich dáte do print shopu) a rozošlete pozvánky. To je všetko! V deň hry len rozdáte karty a začnete.
+                        </p>
+                    </details>
+
+                    <details class="bg-white p-6 rounded-xl shadow-sm">
+                        <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">
+                            Čo ak mám menej/viac hráčov?
+                            <i class="fas fa-chevron-down"></i>
+                        </summary>
+                        <p class="mt-4 text-gray-600">
+                            Naša hra je optimalizovaná pre 6-12 hráčov. V manuáli sú inštrukcie ako adaptovať hru pre menej hráčov (niektoré role sa dajú spojiť alebo vynechať). Pre viac ako 12 hráčov odporúčame kúpiť druhú tému.
+                        </p>
+                    </details>
+
+                    <details class="bg-white p-6 rounded-xl shadow-sm">
+                        <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">
+                            Môžem hru opakovať alebo použiť viackrát?
+                            <i class="fas fa-chevron-down"></i>
+                        </summary>
+                        <p class="mt-4 text-gray-600">
+                            Áno! Môžete vytlačiť koľkokrát chcete a použiť s rôznymi skupinami priateľov. Personal Use licencia vám to umožňuje. Ak chcete predávať alebo použiť komerčne (napr. pre events), potrebujete Commercial License.
+                        </p>
+                    </details>
+
+                    <details class="bg-white p-6 rounded-xl shadow-sm">
+                        <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">
+                            Funguje to aj online (Zoom, Teams)?
+                            <i class="fas fa-chevron-down"></i>
+                        </summary>
+                        <p class="mt-4 text-gray-600">
+                            Určite! V balíku je Google Slides verzia špeciálne pre remote play. Materiály môžete zdieľať cez screen share, poslať PDF emailom, alebo použiť náš digital interactive formát s QR kódmi.
+                        </p>
+                    </details>
+
+                    <details class="bg-white p-6 rounded-xl shadow-sm">
+                        <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">
+                            Čo ak som nespokojný?
+                            <i class="fas fa-chevron-down"></i>
+                        </summary>
+                        <p class="mt-4 text-gray-600">
+                            Máme 30-dňovú money-back garanciu. Ak z akéhokoľvek důvodu nebudete spokojní, napíšte nám email a vrátime vám peniaze, žiadne otázky.
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-20 bg-gradient-to-br from-red-600 to-red-800 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl md:text-6xl font-black mb-6">
+                Pripravení na Nezabudnuteľný Večierok?
+            </h2>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-red-100">
+                Pripojte sa k 5,000+ spokojným zákazníkom a zorganizujte párty, na ktorú sa bude spomínať roky.
+            </p>
+            <a href="#pricing" class="inline-block bg-yellow-400 text-gray-900 px-12 py-5 rounded-full font-black text-2xl hover:bg-yellow-300 transition shadow-2xl">
+                ZAČAŤ TERAZ - $19.99
+            </a>
+            <p class="mt-6 text-red-100">
+                <i class="fas fa-lock mr-2"></i>
+                Bezpečná platba • Okamžitý download • 30-dňová garancia
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-skull text-red-600 text-2xl"></i>
+                        <span class="text-xl font-bold text-white">MurderMystery.pro</span>
+                    </div>
+                    <p class="text-sm">
+                        Profesionálne murder mystery party kity pre nezabudnuteľné večierky.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-white mb-4">Produkt</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#features" class="hover:text-white transition">Funkcie</a></li>
+                        <li><a href="#pricing" class="hover:text-white transition">Cenník</a></li>
+                        <li><a href="#" class="hover:text-white transition">Všetky témy</a></li>
+                        <li><a href="#" class="hover:text-white transition">Commercial License</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-white mb-4">Support</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#faq" class="hover:text-white transition">FAQ</a></li>
+                        <li><a href="#" class="hover:text-white transition">Kontakt</a></li>
+                        <li><a href="#" class="hover:text-white transition">Návod na použitie</a></li>
+                        <li><a href="#" class="hover:text-white transition">Refund Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-white mb-4">Sledujte nás</h4>
+                    <div class="flex gap-4 text-2xl">
+                        <a href="#" class="hover:text-red-500 transition"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="hover:text-red-500 transition"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="hover:text-red-500 transition"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="hover:text-red-500 transition"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
+                <p>© 2026 MurderMystery.pro. All rights reserved.</p>
+                <div class="flex gap-6 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-white transition">Terms of Service</a>
+                    <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition">Licenses</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Checkout Modal Integration Point -->
+    <div id="checkout-container">
+        <!-- Tu bude Gumroad/Stripe embed -->
+    </div>
+
+</body>
+</html>
